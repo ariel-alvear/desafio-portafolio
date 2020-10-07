@@ -21,3 +21,10 @@ body {
 /* formulario de contacto */
 
 /* footer */
+footer {
+  background-color: green;
+}
+
+.footerblock {
+  height: 60px;
+}
