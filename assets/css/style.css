@@ -1,10 +1,15 @@
 /* ajustes generales al body */
-
+body {
+  font-family: 'Nunito', sans-serif;
+}
 /* barra de navegación*/
 
 /* header */
 
 /* experiencia laboral */
+.experience-button {
+
+}
 
 /* trabajos en desafio latam */
 .projectcard {
