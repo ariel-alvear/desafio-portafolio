@@ -30,6 +30,8 @@ nav {
   background-color: #B9F084;
   color: #5471F0;
   font-weight: 700;
+  display: block;
+  width: 100%;
 }
 
 /* trabajos en desafio latam */
@@ -86,10 +88,14 @@ text-align: center;
 .instagramicon {
   margin-right: 0;
 }
+/*primer breakpoint para dispositivos de tamaño entre celulares y computadores, como por ejemplo tablets*/
+@media (min-width: 768px) and (max-width: 991.98px) {
 
-@media (min-width: 768px) {
+}
+
+/*breakpoint para computadores */
+@media (min-width: 992px) {
   body {
-    background-color: red;
-  }
-
- }
+    background-color: green;
+   }
+}
