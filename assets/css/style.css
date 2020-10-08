@@ -39,17 +39,37 @@ nav {
   margin-right: auto;
 }
 
-/* formulario de contacto */
-.buttonform {
-  background-color: #547BF0;
-  color: #B9F084;
+.card-title {
+  font-weight: 700;
 }
-/* footer */
-footer {
+
+.cardbutton {
   background-color: #547BF0;
   color: #B9F084;
 }
 
+/* formulario de contacto */
+.formlink {
+  color: #B9F084;
+}
+
+/* footer */
+footer {
+  background-color: #547BF0;
+  color: #B9F084;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
 .footerblock {
   height: 60px;
+}
+
+.footericon {
+  color: #B9F084;
+  margin-left: 10vw;
+}
+
+.githubicon {
+  margin-left: 12%;
 }
