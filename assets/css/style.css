@@ -65,11 +65,31 @@ footer {
   height: 60px;
 }
 
+.footericonblock {
+text-align: center;
+}
+
 .footericon {
   color: #B9F084;
-  margin-left: 10vw;
 }
 
 .githubicon {
-  margin-left: 12%;
+  margin-left: 0;
+  margin-right: 5vw;
 }
+
+.linkedinicon {
+  margin-right: 7vw;
+  margin-left: 2vw
+}
+
+.instagramicon {
+  margin-right: 0;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: red;
+  }
+
+ }
