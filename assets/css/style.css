@@ -1,14 +1,35 @@
 /* ajustes generales al body */
 body {
   font-family: 'Nunito', sans-serif;
+  color: #547BF0;
 }
 /* barra de navegación*/
+nav {
+  background-color: #547BF0;
+}
+
+.navbartitle {
+  color: #B9F084;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.hamburger-button {
+  border-color: #B9F084;
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  background-color: transparent;
+  border: 1px solid #B9F084;
+  border-radius: .25rem;
+}
 
 /* header */
 
 /* experiencia laboral */
 .experience-button {
-
+  background-color: #B9F084;
+  color: #5471F0;
+  font-weight: 700;
 }
 
 /* trabajos en desafio latam */
@@ -19,10 +40,14 @@ body {
 }
 
 /* formulario de contacto */
-
+.buttonform {
+  background-color: #547BF0;
+  color: #B9F084;
+}
 /* footer */
 footer {
-  background-color: green;
+  background-color: #547BF0;
+  color: #B9F084;
 }
 
 .footerblock {
