@@ -13,7 +13,11 @@ nav {
 .navbartitle {
   color: #B9F084;
   font-weight: 700;
-  font-size: 35px;
+  font-size: 12vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .hamburger-button {
@@ -29,17 +33,20 @@ nav {
 header {
   background-image: url('../img/hero-img.jpg');
   background-size: cover;
-  height: 300px;
+  height: 80vw;
+  margin-bottom: 30px;
 }
 
 .headertitle {
   padding-top: 50vw;
   text-shadow: #B9F084 -2px 2px;
+  padding-bottom: 10vw;
+  font-size: 12vw;
 }
 /* experiencia laboral */
 .experience-button {
-  background-color: #B9F084;
-  color: #5471F0;
+  background-color: #5471F0;
+  color: #B9F084;
   font-weight: 700;
   display: block;
   width: 100%;
@@ -101,6 +108,15 @@ text-align: center;
 }
 /*primer breakpoint para dispositivos de tamaño entre celulares y computadores, como por ejemplo tablets*/
 @media (min-width: 768px) and (max-width: 991.98px) {
+  header {
+    height: 600px;
+  }
+
+  .headertitle {
+    margin-top: 20px;
+    padding-top: 400px;
+    font-size: 90px;
+  }
 
 }
 
