@@ -29,6 +29,10 @@ nav {
   border-radius: .25rem;
 }
 
+.nav-link {
+  font-size: 20px;
+}
+
 /* header */
 header {
   background-image: url('../img/hero-img.jpg');
