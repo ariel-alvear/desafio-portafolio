@@ -6,12 +6,13 @@ body {
 /* barra de navegación*/
 nav {
   background-color: #547BF0;
+  position: fixed;
 }
 
 .navbartitle {
   color: #B9F084;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .hamburger-button {
@@ -95,7 +96,7 @@ text-align: center;
 
 /*breakpoint para computadores */
 @media (min-width: 992px) {
-  body {
-    background-color: green;
-   }
+  .hamburger-button, .navbar-toggler-icon {
+    display: none;
+  }
 }

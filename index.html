@@ -16,29 +16,28 @@
   </head>
   <body>
     <!--barra de navegación-->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="" href="#"><h6 class="navbartitle my-auto">ARIEL</h6></a>
+    <nav class="navbar navbar-expand-lg navbar-dark position-fixed w-100">
+      <a class="" href="#"><h6 class="navbartitle my-auto ml-2">AA</h6></a>
       <button class="hamburger-button" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-link" href="#">Features</a>
-          <a class="nav-link" href="#">Pricing</a>
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link" href="#experience">Experiencia<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#projects">Trabajos</a>
+          <a class="nav-link" href="#contact">Contacto</a>
         </div>
       </div>
     </nav>
     <!--header-->
     <header class="px-3 py-4">
       <div class="text-center class="mb-3"">
-        <h1 class="display-4">ARIEL ALVEAR</h1>
+        <h1 class="display-4 mt-5">ARIEL ALVEAR</h1>
       </div>
     </header>
     <!-- experiencia -->
     <section class="px-3">
-      <div class="text-center">
+      <div class="text-center" id="experience">
         <h2>Experienca Laboral</h2>
         <!--inicio row-->
         <div class="row">
@@ -46,9 +45,9 @@
             <div class="container mt-4">
               <h4 class="mb-3">Psicólogo Laboral</h4>
               <div class="text-center mb-3">
-                <i class="fas fa-book fa-2x"></i>
-                <i class="fab fa-r-project fa-2x ml-5"></i>
-                <i class="far fa-file-excel fa-2x ml-5"></i>
+                <i class="fas fa-book fa-2x" data-toggle="tooltip" data-placement="bottom" title="Experto en Gestión del Desempeño"></i>
+                <i class="fab fa-r-project fa-2x ml-5" data-toggle="tooltip" data-placement="bottom" title="Análisis Estratégico de Datos"></i>
+                <i class="far fa-file-excel fa-2x ml-5" data-toggle="tooltip" data-placement="bottom" title="Manejo de Tablas Dinámicas y Macros"></i>
               </div>
               <a href="https://www.linkedin.com/in/ariel-alvear/" target="_blank" class="btn btn-lg experience-button px-2" role="button"><h6 class="mb-0">Revisar en Linkedin</h6></a>
             </div>
@@ -57,9 +56,9 @@
             <div class="container mt-4">
               <h4 class="mb-3">Psicólogo Deportivo</h4>
               <div class="text-center mb-3">
-                <i class="far fa-address-card fa-2x"></i>
-                <i class="fas fa-dumbbell fa-2x ml-5"></i>
-                <i class="far fa-futbol fa-2x ml-5"></i>
+                <i class="far fa-address-card fa-2x" data-toggle="tooltip" data-placement="bottom" title="Curso de Especialización Organizado por PSIDEP"></i>
+                <i class="fas fa-dumbbell fa-2x ml-5" data-toggle="tooltip" data-placement="bottom" title="Trabajo Individualizado con Deportistas"></i>
+                <i class="far fa-futbol fa-2x ml-5" data-toggle="tooltip" data-placement="bottom" title="Trabajo de Rendimiento en Equipos"></i>
               </div>
             </div>
             <a href="https://www.instagram.com/mentalidad_deportiva_aal/" target="_blank" class="btn btn-lg experience-button px-2" role="button"><h6 class="mb-0">Revisar en Instagram</h6></a>
@@ -79,7 +78,8 @@
         </div>
     </section>
     <!--trabajos del curso-->
-    <section class="px-3 my-5 project-cards">
+    <section class="px-3 my-5 project-cards text-center" id="projects">
+      <h2>Trabajos Realizados</h2>
       <div class="row">
         <div class="col-md-6">
           <!--meet coffee card-->
@@ -122,7 +122,7 @@
             <img src="assets/img/cuppon.png" class="card-img-top" alt="página web cuppon">
             <div class="card-body">
               <h5 class="card-title">Cuppon</h5>
-              <p class="card-text">Desafío de crear una página versión mobile</p>
+              <p class="card-text">Desafío de crear una página versión mobile, utilizando filosofía mobile first</p>
               <a href="https://ariel-alvear.github.io/desafio-cuppon/" class="btn cardbutton btn-block" target="_blank">Revisar página</a>
             </div>
           </div>
@@ -139,7 +139,7 @@
       </div>
     </section>
     <!--formulario de contacto-->
-    <section class="px-3 text-center">
+    <section class="px-3 text-center" id="contact">
       <!--boton de formulario a typeform-->
       <a class="typeform-share link formlink" href="https://form.typeform.com/to/jTDKiqIF" data-mode="popup" style="color:#547BF0;text-decoration:underline;font-size:20px;" target="_blank">¡Contáctame! </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
     </section>
