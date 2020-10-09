@@ -26,7 +26,16 @@ nav {
 }
 
 /* header */
+header {
+  background-image: url('../img/hero-img.jpg');
+  background-size: cover;
+  height: 300px;
+}
 
+.headertitle {
+  padding-top: 50vw;
+  text-shadow: #B9F084 -2px 2px;
+}
 /* experiencia laboral */
 .experience-button {
   background-color: #B9F084;
@@ -97,6 +106,12 @@ text-align: center;
 
 /*breakpoint para computadores */
 @media (min-width: 992px) {
+
+  .body-without-nav-footer {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  /*barra navegación*/
   .hamburger-button, .navbar-toggler-icon {
     display: none;
   }
@@ -105,5 +120,10 @@ text-align: center;
   .experience-block {
     border-style: dashed;
     border-color: #2947A3;
+  }
+
+  /* Mis Trabajos */
+  .button-title {
+    display: none;
   }
 }
