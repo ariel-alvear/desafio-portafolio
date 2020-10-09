@@ -7,6 +7,7 @@ body {
 nav {
   background-color: #547BF0;
   position: fixed;
+  z-index: 1;
 }
 
 .navbartitle {
@@ -98,5 +99,11 @@ text-align: center;
 @media (min-width: 992px) {
   .hamburger-button, .navbar-toggler-icon {
     display: none;
+  }
+
+  /*Experiencia Laboral*/
+  .experience-block {
+    border-style: dashed;
+    border-color: #2947A3;
   }
 }
