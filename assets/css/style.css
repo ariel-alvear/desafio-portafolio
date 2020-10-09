@@ -57,6 +57,7 @@ header {
   width: 17rem;
   margin-left: auto;
   margin-right: auto;
+  height: 364px;
 }
 
 .card-title {
@@ -66,6 +67,10 @@ header {
 .cardbutton {
   background-color: #547BF0;
   color: #B9F084;
+}
+
+.railscard {
+  display: none;
 }
 
 /* formulario de contacto */
@@ -130,6 +135,32 @@ text-align: center;
     font-size: 2vw;
   }
 
+  .experiencebloc {
+    width: 206px;
+    height: 160px;
+    }
+
+  .psytitle {
+    margin-bottom: 28px;
+  }
+/*MIS TRABAJOS*/
+  .railscard {
+  display: block;
+  }
+
+  .railsbodycard {
+    height: 200px;
+    margin-top: 60px;
+  }
+
+  .rubytextcard {
+    margin-bottom: 40px;
+  }
+
+  .buttonrailscard {
+    margin-bottom: 0;
+  }
+
 }
 
 /*breakpoint para computadores */
@@ -148,6 +179,11 @@ text-align: center;
     font-size: 4vw;
   }
 
+  /*Header */
+  header {
+    height: 600px;
+  }
+
   /*Experiencia Laboral*/
   .experience-block {
     border-style: dashed;
@@ -157,5 +193,22 @@ text-align: center;
   /* Mis Trabajos */
   .button-title {
     display: none;
+  }
+
+  .railscard {
+    display: block;
+  }
+
+  .railsbodycard {
+    height: 200px;
+    margin-top: 60px;
+  }
+
+  .rubytextcard {
+    margin-bottom: 40px;
+  }
+
+  .buttonrailscard {
+    margin-bottom: 0;
   }
 }
