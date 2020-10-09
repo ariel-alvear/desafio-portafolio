@@ -187,6 +187,16 @@ text-align: center;
   .headertitle {
     padding-top: 80px;
   }
+  /*Acerca de mí */
+
+  .aboutme {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .aboutmetext {
+    font-size: 24px;
+  }
 
   /*Experiencia Laboral*/
   .experience-block {
