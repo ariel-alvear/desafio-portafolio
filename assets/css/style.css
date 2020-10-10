@@ -148,6 +148,10 @@ text-align: center;
     margin-bottom: 28px;
   }
 /*MIS TRABAJOS*/
+  .projectcard {
+    width: 15rem;
+  }
+
   .railscard {
   display: block;
   }
@@ -206,7 +210,7 @@ text-align: center;
   .experience-block {
     border-style: dashed;
     border-color: #2947A3;
-    border-radius: 5%; 
+    border-radius: 5%;
   }
 
   /* Mis Trabajos */
